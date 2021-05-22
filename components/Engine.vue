@@ -51,10 +51,13 @@ form {
 
 label {
     display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
 }
 input[type=text] {
     display: block;
-    padding: 4px;
+    width: 100%;
+    padding: 16px;
     background: #efefef;
     border-radius: 4px;
     color: #333;
@@ -63,6 +66,7 @@ input[type=text] {
 div.output {
     background: #333;
     color: #fff;
+    border-radius: 4px;
     border: 1px solid #787;
     padding: 16px;
     margin-top: 32px;

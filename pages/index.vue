@@ -5,6 +5,7 @@
         Sarcastic Text
       </h1>
       <Engine />
+      <p class="note">Generate the upper and lower case sarcastic text popularized by the SpongeBob meme</p>
     </div>
   </div>
 </template>
@@ -26,6 +27,7 @@ body {
 
 .container {
   margin: 0 auto;
+  max-width: 46rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -60,7 +62,8 @@ body {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+p.note {
+  margin: 2rem 0;
+  color: #c3b79b;
 }
 </style>
